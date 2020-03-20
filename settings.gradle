@@ -1,0 +1,2 @@
+rootProject.name='SpaceXProject'
+include ':app'
