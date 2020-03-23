@@ -53,4 +53,68 @@ public class LaunchDetails {
                 ", rocket=" + rocket.toString() +
                 '}';
     }
+
+    public String getMissionName() {
+        return missionName;
+    }
+
+    public void setMissionName(String missionName) {
+        this.missionName = missionName;
+    }
+
+    public String getLaunchYear() {
+        return launchYear;
+    }
+
+    public void setLaunchYear(String launchYear) {
+        this.launchYear = launchYear;
+    }
+
+    public Integer getFlightNumber() {
+        return flightNumber;
+    }
+
+    public void setFlightNumber(Integer flightNumber) {
+        this.flightNumber = flightNumber;
+    }
+
+    public String getLaunchDateUtc() {
+        return launchDateUtc;
+    }
+
+    public void setLaunchDateUtc(String launchDateUtc) {
+        this.launchDateUtc = launchDateUtc;
+    }
+
+    public Object getDetails() {
+        return details;
+    }
+
+    public void setDetails(Object details) {
+        this.details = details;
+    }
+
+    public Links getLinks() {
+        return links;
+    }
+
+    public void setLinks(Links links) {
+        this.links = links;
+    }
+
+    public LaunchSite getLaunchSite() {
+        return launchSite;
+    }
+
+    public void setLaunchSite(LaunchSite launchSite) {
+        this.launchSite = launchSite;
+    }
+
+    public Rocket getRocket() {
+        return rocket;
+    }
+
+    public void setRocket(Rocket rocket) {
+        this.rocket = rocket;
+    }
 }

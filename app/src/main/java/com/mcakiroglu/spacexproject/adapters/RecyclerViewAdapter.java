@@ -1,4 +1,4 @@
-package com.mcakiroglu.spacexproject.views;
+package com.mcakiroglu.spacexproject.adapters;
 
 import android.content.Context;
 
