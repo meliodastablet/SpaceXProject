@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.PadDetailsActivity"></activity>
+        <activity android:name=".activities.MissionPhotosActivity" />
+        <activity android:name=".activities.PadDetailsActivity" />
         <activity android:name=".activities.LaunchDetailsActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>

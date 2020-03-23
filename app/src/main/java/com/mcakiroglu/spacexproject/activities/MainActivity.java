@@ -14,7 +14,7 @@ import com.mcakiroglu.spacexproject.R;
 import com.mcakiroglu.spacexproject.api.AllLaunchInterface;
 import com.mcakiroglu.spacexproject.api.ApiClient;
 import com.mcakiroglu.spacexproject.classes.Launches;
-import com.mcakiroglu.spacexproject.views.RecyclerViewAdapter;
+import com.mcakiroglu.spacexproject.adapters.RecyclerViewAdapter;
 
 
 import java.util.ArrayList;

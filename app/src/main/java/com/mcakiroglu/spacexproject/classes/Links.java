@@ -20,7 +20,7 @@ public class Links {
 
     @SerializedName("flickr_images")
     @Expose
-    public List<Object> flickrImages = null;
+    public List<String> flickrImages = null;
 
 
     @Override

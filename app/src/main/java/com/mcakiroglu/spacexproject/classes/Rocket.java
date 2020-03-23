@@ -16,4 +16,8 @@ public class Rocket {
                 "rocketName='" + rocketName + '\'' +
                 '}';
     }
+
+    public String getRocketName() {
+        return rocketName;
+    }
 }
