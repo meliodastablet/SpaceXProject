@@ -99,12 +99,21 @@ public class LaunchDetailsActivity extends AppCompatActivity implements View.OnC
                 else
                     System.out.println(launchDetailsList.getLinks().flickrImages.toString());
 
-                if(launchDetailsList.getLinks().wikipedia.isEmpty())
+                try {
+                    if(launchDetailsList.getLinks().wikipedia.isEmpty())
                     b.setVisibility(View.GONE);
-                if(launchDetailsList.getLinks().videoLink.isEmpty())
-                    b1.setVisibility(View.GONE);
+                }catch (Exception e){
+                    b.setVisibility(View.GONE);
+                    }
 
-                System.out.println(launchDetailsList.toString());
+                try {
+                    if(launchDetailsList.getLinks().videoLink.isEmpty())
+                        b1.setVisibility(View.GONE);
+                } catch (Exception e) {
+                    b1.setVisibility(View.GONE);
+                     }
+
+                //System.out.println(launchDetailsList.toString());
 
             }
 

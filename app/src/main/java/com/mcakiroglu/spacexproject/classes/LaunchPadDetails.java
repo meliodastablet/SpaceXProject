@@ -18,6 +18,17 @@ public class LaunchPadDetails {
     @Expose
     public String siteId;
 
+    public Location getLocation() {
+        return location;
+    }
+
+    public String getDetails() {
+        return details;
+    }
+
+    public String getSiteId() {
+        return siteId;
+    }
 
     @Override
     public String toString() {
