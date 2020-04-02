@@ -16,7 +16,7 @@
         <activity android:name=".activities.PadDetailsActivity" />
         <activity android:name=".activities.LaunchDetailsActivity" />
         <activity android:name=".activities.MainActivity">
-            android:windowSoftInputMode="adjustNothing"
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
